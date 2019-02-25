@@ -1,0 +1,8 @@
+[Unit]
+Description=Odroid LED Controller
+
+[Service]
+ExecStart=/usr/bin/led_control.sh
+
+[Install]
+WantedBy=multi-user.target
